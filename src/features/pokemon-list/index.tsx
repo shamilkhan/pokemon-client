@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { useGetPokemonListQuery } from "./model";
 import {Pokemon} from "../pokemon";
 
