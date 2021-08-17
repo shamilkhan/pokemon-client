@@ -1,10 +1,9 @@
-import { BrowserRouter as Router, Switch, Route, useLocation, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
 import { Pokemon } from "./features/pokemon";
 import { PokemonList } from "./features/pokemon-list";
 import "./App.css";
 
 const PokemonCard = () => {
-    const location = useLocation();
     const { name } = useParams<{name: string}>();
     return <Pokemon name={name} />;
 }

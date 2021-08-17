@@ -8,8 +8,6 @@ export const Pokemon = ({ name }: { name: string }) => {
     data,
     error,
     isLoading,
-    isFetching,
-    refetch,
   } = useGetPokemonByNameQuery(name);
 
   return (
