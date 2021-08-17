@@ -2,10 +2,10 @@ import { useGetPokemonListQuery } from "./model";
 import {Pokemon} from "../pokemon";
 
 const PokemonList = () => {
-  const { data } = useGetPokemonListQuery("10");
+  const { data } = useGetPokemonListQuery(20);
   return <ul>
-    {data && data.results.map(item => {
-      return <Pokemon key={item.name} name={item.name} />
+    {data && data.results.map(({name}) => {
+      return <Pokemon key={name} name={name} />
     })}
   </ul>
 };
