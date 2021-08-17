@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg" width="40px" /> Poke client
+# <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg" width="40px" /> Pokémon client
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
